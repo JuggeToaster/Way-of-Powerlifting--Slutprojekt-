@@ -8,9 +8,15 @@
   background-color: black;
   width: 100%;
   justify-content: center;
+  align-items: center;
+  padding-left: 75px;
 }
 
-.navigation_bar {
+.logo img {
+  padding-right: 75px;
+}
+
+.home_navigation_bar {
   display: flex;
   background-color: gainsboro;
   justify-content: center;
@@ -18,7 +24,7 @@
   flex-direction: column;
 }
 
-nav {
+.main_bar {
   display: flex;
   align-items: center;
   width: 100%;
@@ -45,4 +51,47 @@ nav {
 
 .nav_links {
   color: black;
+}
+
+.shop_nav_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+.shop_links {
+  display: flex;
+  list-style: none;
+  padding: 15px;
+  font-size: 25px;
+  width: 100%;
+  flex: 100%;
+}
+
+.shop_links li {
+  padding-right: 50px;
+}
+
+.shop_bar {
+  width: 100%;
+}
+
+.shop_links a {
+  color: black;
+  text-decoration: none;
+}
+
+.webshop_link {
+  margin-left: 50px;
+  padding: 5px;
+}
+
+.push_right {
+  margin-left: auto;
+}
+
+.webshop_link:hover {
+  background-color: whitesmoke;
+  border-radius: 5px;
 }
