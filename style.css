@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
 .logo {
   display: flex;
   background-color: black;
@@ -38,7 +47,7 @@
   list-style: none;
   padding: 12px;
   margin-left: 15px;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-thickness: 1px;
   text-underline-offset: 6px;
   font-size: 25px;
@@ -51,6 +60,40 @@
 
 .nav_links {
   color: black;
+  text-decoration: none;
+}
+
+.terry {
+  display: flex;
+  justify-content: center;
+}
+
+.page_main {
+  display: flex;
+}
+
+.articles {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 65px;
+}
+
+h1 {
+  text-decoration: underline red;
+  text-decoration-thickness: 1px;
+}
+
+.news_posts {
+  padding-bottom: 75px;
+  background-color: red;
+  margin-top: 20px;
+}
+
+.article_2 {
+  display: flex;
+  padding: 30px;
 }
 
 .shop_nav_bar {
@@ -94,4 +137,9 @@
 .webshop_link:hover {
   background-color: whitesmoke;
   border-radius: 5px;
+}
+
+.nav_links:hover {
+  box-shadow: 0 0 4px;
+  border-radius: 3px;
 }
