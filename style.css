@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 
-header {
+.main_bar {
   position: sticky;
   top: 0;
 }
@@ -76,24 +76,44 @@ header {
   display: flex;
   padding: 30px;
   flex-direction: column;
-  width: 40%;
-  margin-left: 65px;
+  width: 60%;
+  margin-left: 45px;
 }
 
 h1 {
-  text-decoration: underline red;
+  border-bottom: 1px red solid;
   text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  font-family: 'Oswald', sans-serif;
 }
 
+
 .news_posts {
-  padding-bottom: 75px;
-  background-color: red;
+  padding-bottom: 80px;
   margin-top: 20px;
+  border-bottom: 1px black solid;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Grape Nuts', cursive;
+  color: grey;
+}
+
+h2 {
+  padding-bottom: 20px;
+  font-family: 'Bebas Neue', cursive;
 }
 
 .article_2 {
   display: flex;
   padding: 30px;
+  flex-direction: column;
+  width: 500px;
+}
+
+.news_posts:hover {
+  background-color: lightgrey;
 }
 
 .shop_nav_bar {
