@@ -116,11 +116,15 @@ h2 {
   background-color: lightgrey;
 }
 
+.shop_body {
+  background-image: url('russwole_body.jpg');
+  background-size: cover;
+}
+
 .shop_nav_bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
 }
 
 .shop_links {
@@ -134,6 +138,7 @@ h2 {
 
 .shop_links li {
   padding-right: 50px;
+
 }
 
 .shop_bar {
@@ -146,20 +151,34 @@ h2 {
 }
 
 .webshop_link {
-  margin-left: 50px;
+  margin-left: 110px;
   padding: 5px;
+  border-radius: 3px;
+  background-color: lightblue;
+  font-family: 'Archivo Narrow', sans-serif;
 }
+
+
 
 .push_right {
   margin-left: auto;
 }
 
-.webshop_link:hover {
-  background-color: whitesmoke;
-  border-radius: 5px;
-}
-
 .nav_links:hover {
   box-shadow: 0 0 4px;
   border-radius: 3px;
+}
+
+.shop_main {
+  display: flex;
+  justify-content: center;
+}
+
+.shop_categories {
+  margin-top: 100px;
+}
+
+.shop_pics {
+  padding-right: 50px;
+  cursor: pointer;
 }
