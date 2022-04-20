@@ -93,6 +93,11 @@ h1 {
   margin-top: 20px;
   border-bottom: 1px black solid;
   cursor: pointer;
+  transition: all 1.5s ease;
+}
+
+.news_posts:hover {
+  transform: scale(1.05);
 }
 
 p {
@@ -112,12 +117,16 @@ h2 {
   width: 500px;
 }
 
+.article_2 img {
+  padding-left: 120px;
+}
+
 .news_posts:hover {
   background-color: lightgrey;
 }
 
 .shop_body {
-  background-image: url('russwole_body.jpg');
+  background-image: url('background_image.jpg');
   background-size: cover;
 }
 
@@ -125,6 +134,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: whitesmoke;
 }
 
 .shop_links {
@@ -181,4 +191,45 @@ h2 {
 .shop_pics {
   padding-right: 50px;
   cursor: pointer;
+}
+
+.login_body {
+  background-color: black;
+}
+
+.nav_links_login {
+  color: black;
+  text-decoration: none;
+  padding-left: 1200px;
+}
+
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+}
+
+form {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 4px black;
+  background-color: red;
+  border-radius: 5px;
+  width: 600px;
+}
+
+#password {
+  margin-top: 30px;
+}
+
+#remember {
+  margin-top: 20px;
+}
+
+#submit {
+  margin-top: 30px;
 }
