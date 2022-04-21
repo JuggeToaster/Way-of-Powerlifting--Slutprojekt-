@@ -142,12 +142,11 @@ h2 {
   list-style: none;
   padding: 15px;
   font-size: 25px;
-  width: 100%;
   flex: 100%;
 }
 
 .shop_links li {
-  padding-right: 50px;
+  padding-right: 0px;
 
 }
 
@@ -164,11 +163,9 @@ h2 {
   margin-left: 110px;
   padding: 5px;
   border-radius: 3px;
-  background-color: lightblue;
+  background-color: red;
   font-family: 'Archivo Narrow', sans-serif;
 }
-
-
 
 .push_right {
   margin-left: auto;
