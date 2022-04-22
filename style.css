@@ -178,6 +178,16 @@ h2 {
   margin-right: 40px;
 }
 
+span {
+  margin-right: 30px;
+  display: inline-block;
+  border-radius: 60%;
+  background-color: cornflowerblue;
+  margin-left: -50px;
+  font-size: 20px;
+  padding: 2px;
+}
+
 .push_right {
   margin-left: auto;
 }
