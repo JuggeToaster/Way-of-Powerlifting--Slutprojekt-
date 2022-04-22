@@ -160,11 +160,22 @@ h2 {
 }
 
 .webshop_link {
-  margin-left: 110px;
+  margin-left: 100px;
   padding: 5px;
   border-radius: 3px;
   background-color: red;
   font-family: 'Archivo Narrow', sans-serif;
+}
+
+.webshop_link_home {
+  padding: 5px;
+  border-radius: 3px;
+  background-color: red;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.cart {
+  margin-right: 40px;
 }
 
 .push_right {
@@ -178,15 +189,16 @@ h2 {
 
 .shop_main {
   display: flex;
-  justify-content: center;
+  justify-content: row;
 }
 
 .shop_categories {
   margin-top: 100px;
+  margin-left: 50px;
 }
 
 .shop_pics {
-  padding-right: 50px;
+  margin-right: 50px;
   cursor: pointer;
 }
 
@@ -194,10 +206,27 @@ h2 {
   background-color: black;
 }
 
+.navigation_menu_login {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding: 12px;
+  text-decoration: none;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 6px;
+  font-size: 25px;
+  font-family: "Karla", sans-serif;
+}
+
+
 .nav_links_login {
   color: black;
   text-decoration: none;
-  padding-left: 1200px;
+}
+
+.nav_links_login:hover {
+  box-shadow: 0 0 4px;
+  border-radius: 3px;
 }
 
 
@@ -218,8 +247,32 @@ form {
   width: 600px;
 }
 
-#password {
-  margin-top: 30px;
+h3 {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+  font-size: 20px;
+}
+
+#mail {
+  height: 20px;
+}
+
+#password_input {
+  margin-top: 20px;
+  height: 20px;
+}
+
+.forgot_pass {
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  text-decoration: none;
+  width: 110px;
+  margin-left: 250px;
+  color: whitesmoke;
+  font-family: "Karla", sans-serif;
 }
 
 .remember {
@@ -229,5 +282,16 @@ form {
 }
 
 #submit {
-  margin-top: 30px;
+  margin-top: 10px;
+  background-color: whitesmoke;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  padding: 3px;
+}
+
+#submit:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+  box-shadow: 0 0 2px black;
 }

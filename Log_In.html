@@ -21,27 +21,27 @@
       </div>
     </header>
     <nav class="main_bar">
-      <ul class="navigation_menu">
+      <ul class="navigation_menu_login">
         <li><a class="nav_links_login" href="index.html">Home</a></li>
       </ul>
     </nav>
     <div class="login">
       <form>
+        <h3>Login</h3>
         <input type="text" id="mail" name="mail" placeholder="Mail" />
         <input
           type="text"
-          id="password"
+          id="password_input"
           name="password"
           placeholder="Password"
         />
         <div class="remember">
-          <label
-            ><input type="checkbox" checked="checked" name="remember" />Remember
-            me</label
-          >
+          <input type="checkbox" onclick="myFunction()" />Hide Password
         </div>
-        <input type="submit" id="submit" value="Submit" />
+        <a class="forgot_pass" href="">Forgot password?</a>
+        <input type="submit" id="submit" value="Log In" />
       </form>
     </div>
+    <script src="project.js"></script>
   </body>
 </html>
