@@ -126,8 +126,7 @@ h2 {
 }
 
 .shop_body {
-  background-image: url('background_image.jpg');
-  background-size: cover;
+  background-color: black;
 }
 
 .shop_nav_bar {
@@ -182,10 +181,11 @@ span {
   margin-right: 30px;
   display: inline-block;
   border-radius: 60%;
-  background-color: cornflowerblue;
+  background-color: red;
   margin-left: -50px;
   font-size: 20px;
   padding: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .push_right {
@@ -197,13 +197,27 @@ span {
   border-radius: 3px;
 }
 
+.shop_rubrik {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h4 {
+  color: red;
+  border: solid;
+  font-size: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  padding: 3px;
+}
+
 .shop_main {
   display: flex;
   justify-content: row;
 }
 
 .shop_categories {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 
@@ -304,4 +318,33 @@ h3 {
   background-color: lightgrey;
   cursor: pointer;
   box-shadow: 0 0 2px black;
+}
+
+.button_counter {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer_list {
+  color: white ;
+  list-style: none;
+  display: flex;
+}
+
+.footer_list li {
+  margin-right: 20px;
+}
+
+.footer_img {
+  border-radius: 10px;
+  margin-bottom: 15px;
 }

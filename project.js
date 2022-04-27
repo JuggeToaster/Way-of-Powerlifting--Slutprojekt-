@@ -6,3 +6,10 @@ function myFunction() {
     x.type = "password";
   }
 }
+
+var click = 0;
+
+function badgeClick() {
+  click += 1;
+  document.getElementById("counter").innerHTML = click;
+}

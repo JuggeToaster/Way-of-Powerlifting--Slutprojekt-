@@ -67,29 +67,33 @@
           </li>
           <li class="push_right">
             <a class="cart" href=""><i class="fas fa-cart-arrow-down"></i></a>
-            <span>10</span>
+            <span id="counter">0</a></span>
             <a class="webshop_link_home" href="index.html">Home</a>
           </li>
         </ul>
       </nav>
     </header>
+    <div class="shop_rubrik"><h4>Click on any article to add to cart</h4></div>
     <div class="shop_main">
       <div class="shop_categories">
-        <img class="shop_pics" src="gear.jpg" height="350" width="250" />
-        <img class="shop_pics" src="supplements.jpg" height="350" width="250" />
+        <img class="shop_pics" src="gear.jpg" height="350" width="250" onclick="badgeClick()"/>
+        <img class="shop_pics" src="supplements.jpg" height="350" width="250" onclick="badgeClick()"/>
         <img
           class="shop_pics"
           src="mens_gymwear.webp"
           height="350"
           width="250"
+          onclick="badgeClick()"
         />
         <img
           class="shop_pics"
           src="womens_gymwear.webp"
           height="350"
           width="250"
+          onclick="badgeClick()"
         />
       </div>
     </div>
+    <script src="project.js"></script>
   </body>
 </html>
