@@ -52,6 +52,7 @@ body {
   text-underline-offset: 6px;
   font-size: 25px;
   font-family: "Karla", sans-serif;
+  flex-wrap: wrap;
 }
 
 .navigation_menu li {
@@ -70,13 +71,14 @@ body {
 
 .page_main {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .articles {
   display: flex;
   padding: 30px;
   flex-direction: column;
-  width: 60%;
+  width: 47%;
   margin-left: 45px;
 }
 
@@ -144,6 +146,7 @@ h2 {
   padding: 15px;
   font-size: 25px;
   flex: 100%;
+  flex-wrap: wrap;
 }
 
 .shop_links li {
@@ -367,4 +370,10 @@ footer {
 
 table, th, td {
   border:1px solid black;
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
 }
