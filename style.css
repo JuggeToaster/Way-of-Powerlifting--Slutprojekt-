@@ -348,3 +348,11 @@ footer {
   border-radius: 10px;
   margin-bottom: 15px;
 }
+
+.fab  {
+  cursor: pointer;
+} 
+
+.fas {
+  cursor: pointer;
+}
