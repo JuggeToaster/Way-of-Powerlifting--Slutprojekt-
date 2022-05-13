@@ -127,6 +127,8 @@ h2 {
 
 .shop_body {
   background-color: black;
+  background-image: url("sbd.jpg");
+  background-size: cover;
 }
 
 .shop_nav_bar {
@@ -355,4 +357,14 @@ footer {
 
 .fas {
   cursor: pointer;
+}
+
+.tabbel {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+table, th, td {
+  border:1px solid black;
 }
